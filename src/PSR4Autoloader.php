@@ -26,4 +26,7 @@ class AbstractAutoloader
     protected function require(string $path): void {
         require $path;
     }
+    /**
+     *
+*
 }
